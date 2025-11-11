@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { usePartidos } from '../../hooks/usePartidos';
 import type { Partido, NuevoPartido } from '../../hooks/usePartidos';
 import PartidosTable from '../../components/admin/partidos/PartidosTable';

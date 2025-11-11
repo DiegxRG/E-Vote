@@ -8,7 +8,7 @@ interface ListaPerfilesTableProps {
   isLoading: boolean;
 }
 
-export default function ListaPerfilesTable({ candidatos, onEditClick, isLoading }: ListaPerfilesTableProps) {
+export default function ListaPerfilesTable({ candidatos, onEditClick}: ListaPerfilesTableProps) {
   return (
     <div className="bg-white p-6 rounded-xl shadow-lg overflow-x-auto">
       <table className="w-full min-w-[800px] text-left">

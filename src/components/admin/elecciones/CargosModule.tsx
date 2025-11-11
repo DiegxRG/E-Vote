@@ -1,5 +1,5 @@
 // components/admin/elecciones/CargosModule.tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useCargos } from '../../../hooks/useCargos'; // Subimos 3 niveles para llegar a hooks
 import type { Eleccion } from '../../../hooks/useElecciones';
 import type { Cargo } from '../../../hooks/useCargos';

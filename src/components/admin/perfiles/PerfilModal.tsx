@@ -10,8 +10,6 @@ import {
   FaParagraph, FaAlignLeft, FaAlignCenter, FaAlignRight 
 } from 'react-icons/fa';
 // Importamos 'Heading' para los botones H1/H2
-import Heading from '@tiptap/extension-heading';
-
 
 interface PerfilModalProps {
   isOpen: boolean;

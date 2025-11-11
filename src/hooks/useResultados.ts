@@ -2,7 +2,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { supabase } from '../lib/supabase';
 // Reutilizamos tipos de useVoto (asegúrate de que la ruta sea correcta)
-import type { Election, Position, Candidate } from './useVoto'; 
+import type { Election } from './useVoto'; 
 
 type Voto = {
   id: string;

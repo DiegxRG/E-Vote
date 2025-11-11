@@ -1,5 +1,5 @@
 // pages/admin/GestionPerfiles.tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { usePerfiles } from '../../hooks/usePerfiles';
 import type { CandidatoConPerfil } from '../../hooks/usePerfiles';
 import ListaPerfilesTable from '../../components/admin/perfiles/ListaPerfilesTable';

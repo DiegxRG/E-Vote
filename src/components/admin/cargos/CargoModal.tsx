@@ -1,6 +1,6 @@
 // components/admin/cargos/CargoModal.tsx
 import React, { useState, useEffect } from 'react';
-import type { Cargo, NuevoCargo } from '../../../hooks/useCargos';
+import type { Cargo} from '../../../hooks/useCargos';
 
 interface CargoModalProps {
   isOpen: boolean;

@@ -87,7 +87,7 @@ export default function ResultadosPage() {
         </motion.div>
 
         <div className="space-y-10">
-          {MOCK_RESULTS.map((election, electionIndex) => (
+          {MOCK_RESULTS.map((election) => (
             <motion.section
               key={election.id}
               variants={itemVariants}
